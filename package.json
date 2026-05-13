@@ -1,0 +1,8 @@
+{
+  "name": "workspace-portal-hello-world",
+  "version": "0.1.0",
+  "type": "module",
+  "description": "Disposable test app for the Workspace Portal Deployments module.",
+  "scripts": { "start": "node server.js" },
+  "dependencies": { "express": "^4.21.0" }
+}
