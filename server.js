@@ -3,7 +3,7 @@ const app = express()
 const PORT = process.env.PORT || 3000
 const BRANCH = process.env.BRANCH_NAME || "unknown"
 const COLOR = process.env.BG_COLOR || "#16a34a"
-const MESSAGE = process.env.HELLO_MESSAGE || "DEVELOP build v2 - rollback test"
+const MESSAGE = process.env.HELLO_MESSAGE || "DEVELOP build auto-deployed at 1778740960"
 app.get("/", (_req, res) => {
   res.send(`<html><body style="background:${COLOR};color:#fff;font-family:system-ui;padding:4rem;text-align:center;"><h1>${MESSAGE}</h1><p>branch=${BRANCH}</p><p>port=${PORT}</p></body></html>`)
 })
